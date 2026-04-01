@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="audio-player" hidden>
+    <source id="audio-source">
+  </audio>
+
+  <div id="drag-region" style="-webkit-app-region: drag;">
+    <div id="song-title"></div>
+  </div>
+
+  <button id="close-btn">×</button>
+
+  <img id="song-image-img" alt="Album Art">
+
+  <input type="range" id="progress-bar" min="0" max="100" value="0">
+
+  <span id="time-display">0:00 / 0:00</span>
+
+  <div id="controls">
+    <button id="prev">Prev</button>
+    <button id="play-pause">Play/Pause</button>
+    <button id="next">Next</button>
+  </div>
+
+  <div id="bottom-row">
+    <button id="menu-btn">Menu</button>
+    <button class="heart-btn">♥</button>
+    <button class="heart-btn">♥</button>
+    <button class="heart-btn">♥</button>
+  </div>
+
+  <script src="music-player.js"></script>
+</body>
+</html>
