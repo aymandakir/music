@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Music Player</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="main-card">
+    <div id="header-row">
+      <span id="now-playing">♡ now playing</span>
+      <button id="close-btn" aria-label="Close">×</button>
+    </div>
+
+    <div id="album-art-wrapper">
+      <div id="decor-bow" aria-hidden="true">
+        <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 10 C12 6, 2 2, 2 8 C2 14, 12 12, 18 10Z" fill="#f7c5da"/>
+          <path d="M18 10 C24 6, 34 2, 34 8 C34 14, 24 12, 18 10Z" fill="#f7c5da"/>
+          <circle cx="18" cy="10" r="2.5" fill="#e8699a"/>
+        </svg>
+      </div>
+      <div id="art-glow"></div>
+      <img id="song-image-img" alt="Album Art" src="" />
+    </div>
+
+    <div id="meta">
+      <p id="song-title"></p>
+      <p id="song-artist">IVE</p>
+    </div>
+
+    <div id="progress-container" tabindex="0">
+      <div id="progress-track">
+        <div id="progress-fill"></div>
+        <div id="progress-thumb"></div>
+      </div>
+      <input type="range" id="progress-bar" min="0" max="100" value="0" aria-label="Seek" />
+    </div>
+
+    <div id="time-row">
+      <span id="current-time">0:00</span>
+      <span id="duration-time">0:00</span>
+      <span id="time-display" style="display:none;">0:00 / 0:00</span>
+    </div>
+
+    <div id="controls">
+      <button id="prev" aria-label="Previous">
+        <svg viewBox="0 0 24 24" width="15" height="15"><path fill="var(--accent-dark)" d="M11 6L5 12l6 6V6zm8 0v12h-2V6h2z"/></svg>
+      </button>
+      <button id="play-pause" aria-label="Play/Pause">▶</button>
+      <button id="next" aria-label="Next">
+        <svg viewBox="0 0 24 24" width="15" height="15"><path fill="var(--accent-dark)" d="M7 18l6-6-6-6v12zm8 0V6h2v12h-2z"/></svg>
+      </button>
+    </div>
+
+    <div id="bottom-row">
+      <button id="menu-btn">≡ Menu</button>
+      <div id="heart-row">
+        <button class="heart-btn">♡</button>
+        <button class="heart-btn">♡</button>
+        <button class="heart-btn">♡</button>
+      </div>
+    </div>
+
+    <div id="menu-overlay" role="dialog" aria-modal="true" aria-label="Queue">
+      <div id="menu-header">
+        <h2>✦ Queue</h2>
+        <button id="menu-close-btn" aria-label="Close queue">×</button>
+      </div>
+      <div id="menu-list"></div>
+    </div>
+  </div>
+
   <audio id="audio-player" hidden>
-    <source id="audio-source">
+    <source id="audio-source" />
   </audio>
-
-  <div id="drag-region" style="-webkit-app-region: drag;">
-    <div id="song-title"></div>
-  </div>
-
-  <button id="close-btn">×</button>
-
-  <img id="song-image-img" alt="Album Art">
-
-  <input type="range" id="progress-bar" min="0" max="100" value="0">
-
-  <span id="time-display">0:00 / 0:00</span>
-
-  <div id="controls">
-    <button id="prev">Prev</button>
-    <button id="play-pause">Play/Pause</button>
-    <button id="next">Next</button>
-  </div>
-
-  <div id="bottom-row">
-    <button id="menu-btn">Menu</button>
-    <button class="heart-btn">♥</button>
-    <button class="heart-btn">♥</button>
-    <button class="heart-btn">♥</button>
-  </div>
 
   <script src="music-player.js"></script>
 </body>

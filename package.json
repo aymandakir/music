@@ -1,12 +1,49 @@
 {
   "name": "music-player",
   "version": "1.0.0",
-  "description": "",
+  "description": "Music Player Widget",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:win": "electron-builder --win --x64",
+    "build:mac": "electron-builder --mac",
+    "build:all": "electron-builder --win --mac"
+  },
+  "build": {
+    "appId": "com.musicplayer.widget",
+    "productName": "Music Player",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/.cache",
+      "songs/**",
+      "assets/**"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns",
+      "category": "public.app-category.music"
+    },
+    "dmg": {
+      "title": "Music Player"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false
+    }
   },
   "devDependencies": {
-    "electron": "latest"
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0",
+    "icns": "^0.1.0",
+    "jimp": "^1.6.0",
+    "png-to-icns": "^1.0.0",
+    "png-to-ico": "^3.0.1"
   }
 }
