@@ -3,59 +3,59 @@ const BASE_URL = 'https://pub-71a2a2363f0a4d4b8a2e1e486b26c718.r2.dev';
 
 const songs = [
   // ── The Marías · Submarine ──
-  { title: "Ride",                    artist: "The Marías", file: `${BASE_URL}/submarine/1.%20Ride.mp3`,                    cover: "assets/covers/submarine.jpg" },
-  { title: "Hamptons",                artist: "The Marías", file: `${BASE_URL}/submarine/2.%20Hamptons.mp3`,                cover: "assets/covers/submarine.jpg" },
-  { title: "Echo",                    artist: "The Marías", file: `${BASE_URL}/submarine/3.%20Echo.mp3`,                    cover: "assets/covers/submarine.jpg" },
-  { title: "Run Your Mouth",          artist: "The Marías", file: `${BASE_URL}/submarine/4.%20Run%20Your%20Mouth.mp3`,          cover: "assets/covers/submarine.jpg" },
-  { title: "Real Life",               artist: "The Marías", file: `${BASE_URL}/submarine/5.%20Real%20Life.mp3`,               cover: "assets/covers/submarine.jpg" },
-  { title: "Blur",                    artist: "The Marías", file: `${BASE_URL}/submarine/6.%20Blur.mp3`,                    cover: "assets/covers/submarine.jpg" },
-  { title: "Paranoia",                artist: "The Marías", file: `${BASE_URL}/submarine/7.%20Paranoia.mp3`,                cover: "assets/covers/submarine.jpg" },
-  { title: "Lejos de Ti",             artist: "The Marías", file: `${BASE_URL}/submarine/8.%20Lejos%20de%20Ti.mp3`,             cover: "assets/covers/submarine.jpg" },
-  { title: "Love You Anyway",         artist: "The Marías", file: `${BASE_URL}/submarine/9.%20Love%20You%20Anyway.mp3`,         cover: "assets/covers/submarine.jpg" },
-  { title: "Ay No Puedo",             artist: "The Marías", file: `${BASE_URL}/submarine/10.%20Ay%20No%20Puedo.mp3`,            cover: "assets/covers/submarine.jpg" },
-  { title: "No One Noticed",          artist: "The Marías", file: `${BASE_URL}/submarine/11.%20No%20One%20Noticed.mp3`,         cover: "assets/covers/submarine.jpg" },
-  { title: "Vicious Sensitive Robot", artist: "The Marías", file: `${BASE_URL}/submarine/12.%20Vicious%20Sensitive%20Robot.mp3`, cover: "assets/covers/submarine.jpg" },
-  { title: "If Only",                 artist: "The Marías", file: `${BASE_URL}/submarine/13.%20If%20Only.mp3`,                cover: "assets/covers/submarine.jpg" },
-  { title: "Sienna",                  artist: "The Marías", file: `${BASE_URL}/submarine/14.%20Sienna.mp3`,                 cover: "assets/covers/submarine.jpg" },
+  { title: "Ride",                    artist: "The Marías", file: `${BASE_URL}/submarine/1.%20Ride.mp3`,                    cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Hamptons",                artist: "The Marías", file: `${BASE_URL}/submarine/2.%20Hamptons.mp3`,                cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Echo",                    artist: "The Marías", file: `${BASE_URL}/submarine/3.%20Echo.mp3`,                    cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Run Your Mouth",          artist: "The Marías", file: `${BASE_URL}/submarine/4.%20Run%20Your%20Mouth.mp3`,          cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Real Life",               artist: "The Marías", file: `${BASE_URL}/submarine/5.%20Real%20Life.mp3`,               cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Blur",                    artist: "The Marías", file: `${BASE_URL}/submarine/6.%20Blur.mp3`,                    cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Paranoia",                artist: "The Marías", file: `${BASE_URL}/submarine/7.%20Paranoia.mp3`,                cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Lejos de Ti",             artist: "The Marías", file: `${BASE_URL}/submarine/8.%20Lejos%20de%20Ti.mp3`,             cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Love You Anyway",         artist: "The Marías", file: `${BASE_URL}/submarine/9.%20Love%20You%20Anyway.mp3`,         cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Ay No Puedo",             artist: "The Marías", file: `${BASE_URL}/submarine/10.%20Ay%20No%20Puedo.mp3`,            cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "No One Noticed",          artist: "The Marías", file: `${BASE_URL}/submarine/11.%20No%20One%20Noticed.mp3`,         cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Vicious Sensitive Robot", artist: "The Marías", file: `${BASE_URL}/submarine/12.%20Vicious%20Sensitive%20Robot.mp3`, cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "If Only",                 artist: "The Marías", file: `${BASE_URL}/submarine/13.%20If%20Only.mp3`,                cover: `${BASE_URL}/covers/submarine.jpg` },
+  { title: "Sienna",                  artist: "The Marías", file: `${BASE_URL}/submarine/14.%20Sienna.mp3`,                 cover: `${BASE_URL}/covers/submarine.jpg` },
 
   // ── Mitski · Laurel Hell ──
-  { title: "Valentine, Texas",        artist: "Mitski", file: `${BASE_URL}/laurel-hell/1.%20Valentine,%20Texas.mp3`,          cover: "assets/covers/laurel-hell.jpg" },
-  { title: "Working for the Knife",   artist: "Mitski", file: `${BASE_URL}/laurel-hell/2.%20Working%20for%20the%20Knife.mp3`,     cover: "assets/covers/laurel-hell.jpg" },
-  { title: "Stay Soft",               artist: "Mitski", file: `${BASE_URL}/laurel-hell/3.%20Stay%20Soft.mp3`,                 cover: "assets/covers/laurel-hell.jpg" },
-  { title: "Everyone",                artist: "Mitski", file: `${BASE_URL}/laurel-hell/4.%20Everyone.mp3`,                  cover: "assets/covers/laurel-hell.jpg" },
-  { title: "Heat Lightning",          artist: "Mitski", file: `${BASE_URL}/laurel-hell/5.%20Heat%20Lightning.mp3`,            cover: "assets/covers/laurel-hell.jpg" },
-  { title: "The Only Heartbreaker",   artist: "Mitski", file: `${BASE_URL}/laurel-hell/6.%20The%20Only%20Heartbreaker.mp3`,     cover: "assets/covers/laurel-hell.jpg" },
-  { title: "Love Me More",            artist: "Mitski", file: `${BASE_URL}/laurel-hell/7.%20Love%20Me%20More.mp3`,              cover: "assets/covers/laurel-hell.jpg" },
-  { title: "There's Nothing Left for You", artist: "Mitski", file: `${BASE_URL}/laurel-hell/8.%20There%27s%20Nothing%20Left%20for%20You.mp3`, cover: "assets/covers/laurel-hell.jpg" },
-  { title: "Should've Been Me",       artist: "Mitski", file: `${BASE_URL}/laurel-hell/9.%20Should%27ve%20Been%20Me.mp3`,         cover: "assets/covers/laurel-hell.jpg" },
-  { title: "I Guess",                 artist: "Mitski", file: `${BASE_URL}/laurel-hell/10.%20I%20Guess.mp3`,                  cover: "assets/covers/laurel-hell.jpg" },
-  { title: "That's Our Lamp",         artist: "Mitski", file: `${BASE_URL}/laurel-hell/11.%20That%27s%20Our%20Lamp.mp3`,          cover: "assets/covers/laurel-hell.jpg" },
+  { title: "Valentine, Texas",        artist: "Mitski", file: `${BASE_URL}/laurel-hell/1.%20Valentine,%20Texas.mp3`,          cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "Working for the Knife",   artist: "Mitski", file: `${BASE_URL}/laurel-hell/2.%20Working%20for%20the%20Knife.mp3`,     cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "Stay Soft",               artist: "Mitski", file: `${BASE_URL}/laurel-hell/3.%20Stay%20Soft.mp3`,                 cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "Everyone",                artist: "Mitski", file: `${BASE_URL}/laurel-hell/4.%20Everyone.mp3`,                  cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "Heat Lightning",          artist: "Mitski", file: `${BASE_URL}/laurel-hell/5.%20Heat%20Lightning.mp3`,            cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "The Only Heartbreaker",   artist: "Mitski", file: `${BASE_URL}/laurel-hell/6.%20The%20Only%20Heartbreaker.mp3`,     cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "Love Me More",            artist: "Mitski", file: `${BASE_URL}/laurel-hell/7.%20Love%20Me%20More.mp3`,              cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "There's Nothing Left for You", artist: "Mitski", file: `${BASE_URL}/laurel-hell/8.%20There%27s%20Nothing%20Left%20for%20You.mp3`, cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "Should've Been Me",       artist: "Mitski", file: `${BASE_URL}/laurel-hell/9.%20Should%27ve%20Been%20Me.mp3`,         cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "I Guess",                 artist: "Mitski", file: `${BASE_URL}/laurel-hell/10.%20I%20Guess.mp3`,                  cover: `${BASE_URL}/covers/laurel-hell.jpg` },
+  { title: "That's Our Lamp",         artist: "Mitski", file: `${BASE_URL}/laurel-hell/11.%20That%27s%20Our%20Lamp.mp3`,          cover: `${BASE_URL}/covers/laurel-hell.jpg` },
 
   // ── The Smiths · Louder Than Bombs ──
-  { title: "Is It Really so Strange?",    artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/1.%20Is%20It%20Really%20so%20Strange%3F.mp3`,    cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Sheila Take a Bow",           artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/2.%20Sheila%20Take%20a%20Bow%20-%202011%20Remaster.mp3`,      cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Shoplifters of the World Unite", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/3.%20Shoplifters%20of%20the%20World%20Unite%20-%202011%20Remaster.mp3`, cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Sweet and Tender Hooligan",   artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/4.%20Sweet%20and%20Tender%20Hooligan%20-%20John%20Peel%20Session,%2012_2_86.mp3`, cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Half a Person",               artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/5.%20Half%20a%20Person%20-%202011%20Remaster.mp3`,    cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "London",                      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/6.%20London%20-%202011%20Remaster.mp3`,            cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Panic",                       artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/7.%20Panic%20-%202011%20Remaster.mp3`,             cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Girl Afraid",                 artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/8.%20Girl%20Afraid%20-%202011%20Remaster.mp3`,      cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Shakespeare's Sister",         artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/9.%20Shakespeare%27s%20Sister%20-%202011%20Remaster.mp3`,     cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "William, It Was Really Nothing", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/10.%20William,%20It%20Was%20Really%20Nothing%20-%202011%20Remaster.mp3`, cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "You Just Haven't Earned It Yet, Baby", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/11.%20You%20Just%20Haven%27t%20Earned%20It%20Yet,%20Baby.mp3`,  cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Heaven Knows I'm Miserable Now", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/12.%20Heaven%20Knows%20I%27m%20Miserable%20Now%20-%202011%20Remaster.mp3`,   cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Ask",                         artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/13.%20Ask%20-%202011%20Remaster.mp3`,              cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Golden Lights",               artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/14.%20Golden%20Lights%20-%202011%20Remaster.mp3`,     cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Oscillate Wildly",            artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/15.%20Oscillate%20Wildly%20-%202011%20Remaster.mp3`,        cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "These Things Take Time",      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/16.%20These%20Things%20Take%20Time%20-%202011%20Remaster.mp3`,      cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Rubber Ring",                 artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/17.%20Rubber%20Ring%20-%202011%20Remaster.mp3`,     cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Back to the Old House",       artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/18.%20Back%20to%20the%20Old%20House%20-%202011%20Remaster.mp3`,        cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Hand in Glove",               artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/19.%20Hand%20in%20Glove%20-%202011%20Remaster.mp3`,     cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Stretch out and Wait",       artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/20.%20Stretch%20out%20and%20Wait%20-%202011%20Remaster.mp3`,       cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Please, Please, Please",      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/21.%20Please,%20Please,%20Please,%20Let%20Me%20Get%20What%20I%20Want%20-%202011%20Remaster.mp3`, cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "This Night Has Opened My Eyes", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/22.%20This%20Night%20Has%20Opened%20My%20Eyes%20-%202011%20Remaster.mp3`,       cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Unloveable",                  artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/23.%20Unloveable%20-%202011%20Remaster.mp3`,      cover: "assets/covers/louder-than-bombs.jpg" },
-  { title: "Asleep",                      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/24.%20Asleep%20-%202011%20Remaster.mp3`,           cover: "assets/covers/louder-than-bombs.jpg" },
+  { title: "Is It Really so Strange?",    artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/1.%20Is%20It%20Really%20so%20Strange%3F.mp3`,    cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Sheila Take a Bow",           artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/2.%20Sheila%20Take%20a%20Bow%20-%202011%20Remaster.mp3`,      cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Shoplifters of the World Unite", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/3.%20Shoplifters%20of%20the%20World%20Unite%20-%202011%20Remaster.mp3`, cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Sweet and Tender Hooligan",   artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/4.%20Sweet%20and%20Tender%20Hooligan%20-%20John%20Peel%20Session,%2012_2_86.mp3`, cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Half a Person",               artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/5.%20Half%20a%20Person%20-%202011%20Remaster.mp3`,    cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "London",                      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/6.%20London%20-%202011%20Remaster.mp3`,            cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Panic",                       artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/7.%20Panic%20-%202011%20Remaster.mp3`,             cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Girl Afraid",                 artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/8.%20Girl%20Afraid%20-%202011%20Remaster.mp3`,      cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Shakespeare's Sister",         artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/9.%20Shakespeare%27s%20Sister%20-%202011%20Remaster.mp3`,     cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "William, It Was Really Nothing", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/10.%20William,%20It%20Was%20Really%20Nothing%20-%202011%20Remaster.mp3`, cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "You Just Haven't Earned It Yet, Baby", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/11.%20You%20Just%20Haven%27t%20Earned%20It%20Yet,%20Baby.mp3`,  cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Heaven Knows I'm Miserable Now", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/12.%20Heaven%20Knows%20I%27m%20Miserable%20Now%20-%202011%20Remaster.mp3`,   cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Ask",                         artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/13.%20Ask%20-%202011%20Remaster.mp3`,              cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Golden Lights",               artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/14.%20Golden%20Lights%20-%202011%20Remaster.mp3`,     cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Oscillate Wildly",            artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/15.%20Oscillate%20Wildly%20-%202011%20Remaster.mp3`,        cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "These Things Take Time",      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/16.%20These%20Things%20Take%20Time%20-%202011%20Remaster.mp3`,      cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Rubber Ring",                 artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/17.%20Rubber%20Ring%20-%202011%20Remaster.mp3`,     cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Back to the Old House",       artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/18.%20Back%20to%20the%20Old%20House%20-%202011%20Remaster.mp3`,        cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Hand in Glove",               artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/19.%20Hand%20in%20Glove%20-%202011%20Remaster.mp3`,     cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Stretch out and Wait",       artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/20.%20Stretch%20out%20and%20Wait%20-%202011%20Remaster.mp3`,       cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Please, Please, Please",      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/21.%20Please,%20Please,%20Please,%20Let%20Me%20Get%20What%20I%20Want%20-%202011%20Remaster.mp3`, cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "This Night Has Opened My Eyes", artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/22.%20This%20Night%20Has%20Opened%20My%20Eyes%20-%202011%20Remaster.mp3`,       cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Unloveable",                  artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/23.%20Unloveable%20-%202011%20Remaster.mp3`,      cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
+  { title: "Asleep",                      artist: "The Smiths", file: `${BASE_URL}/louder-than-bombs/24.%20Asleep%20-%202011%20Remaster.mp3`,           cover: `${BASE_URL}/covers/louder-than-bombs.jpg` },
 ];
 
 // Variables
@@ -77,11 +77,7 @@ const nextBtn = document.getElementById('next');
 const currentTimeEl = document.getElementById('current-time');
 const durationTimeEl = document.getElementById('duration-time');
 
-// Volume elements
-const volInput = document.getElementById('volume-input');
-const volFill = document.getElementById('volume-fill');
-const volPercent = document.getElementById('vol-percent');
-const volIcon = document.getElementById('vol-icon');
+const DEFAULT_COVER = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+PHJlY3QgZmlsbD0iIzMzMyIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiLz48dGV4dCBmaWxsPSIjNjY2IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9IjEwMCI+e3Nvbmcue2FydGlzdH19PC90ZXh0Pjwvc3ZnPg==';
 
 function setSongTitle(name) {
   songTitle.textContent = '';
@@ -105,8 +101,16 @@ function updatePlayer(autoPlay = true) {
   setTimeout(() => {
     console.log('Loading:', song.file);
     audioPlayer.src = song.file;
+    songImage.onerror = () => {
+      songImage.src = DEFAULT_COVER;
+    };
     songImage.src = song.cover + '?t=' + Date.now();
-    if (artGlow) artGlow.style.backgroundImage = `url('${song.cover}?t=${Date.now()}')`;
+    if (artGlow) {
+      artGlow.style.backgroundImage = `url('${song.cover}?t=${Date.now()}')`;
+      artGlow.onerror = () => {
+        artGlow.style.backgroundImage = 'none';
+      };
+    }
     audioPlayer.load();
     if (autoPlay) {
       audioPlayer.play().then(() => {
