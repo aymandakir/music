@@ -2,13 +2,15 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 320,
-    height: 420,
+    width: 400,
+    height: 650,
     frame: false,
     transparent: true,
-    alwaysOnTop: true,
-    resizable: false,
-    skipTaskbar: true,
+    alwaysOnTop: false,
+    resizable: true,
+    minWidth: 360,
+    minHeight: 600,
+    skipTaskbar: false,
     center: true,
     webPreferences: {
       nodeIntegration: true,
@@ -20,6 +22,10 @@ function createWindow() {
 
   ipcMain.on('close-app', () => {
     win.close();
+  });
+
+  ipcMain.on('minimize-app', () => {
+    win.minimize();
   });
 }
 

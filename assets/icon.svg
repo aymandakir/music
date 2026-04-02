@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heartGradient" x1="256" y1="100" x2="256" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f7c5da"/>
+      <stop offset="100%" stop-color="#e8699a"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#c04878" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <path d="M256 450C256 450 100 330 100 200C100 140 140 100 200 100C230 100 256 120 256 120C256 120 282 100 312 100C372 100 412 140 412 200C412 330 256 450 256 450Z" fill="url(#heartGradient)" filter="url(#dropShadow)"/>
+  <ellipse cx="180" cy="180" rx="30" ry="20" fill="white" fill-opacity="0.3"/>
+</svg>
