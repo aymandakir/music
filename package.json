@@ -1,7 +1,7 @@
 {
   "name": "music-player",
   "version": "1.0.0",
-  "description": "Music Player Widget",
+  "description": "♡ Music Player Widget - A beautiful pink desktop music player",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,15 +11,15 @@
   },
   "build": {
     "appId": "com.musicplayer.widget",
-    "productName": "Music Player",
+    "productName": "♡ Music Player",
     "directories": {
       "output": "dist"
     },
     "files": [
       "**/*",
       "!node_modules/.cache",
-      "songs/**",
-      "assets/**"
+      "!songs/**",
+      "!**/*.mp3"
     ],
     "win": {
       "target": "nsis",
@@ -31,11 +31,13 @@
       "category": "public.app-category.music"
     },
     "dmg": {
-      "title": "Music Player"
+      "title": "♡ Music Player"
     },
     "nsis": {
       "oneClick": true,
-      "perMachine": false
+      "perMachine": false,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico"
     }
   },
   "devDependencies": {
