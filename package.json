@@ -1,6 +1,7 @@
 {
   "name": "music-player",
   "version": "1.0.0",
+  "author": "aymandakir",
   "description": "♡ Music Player Widget - A beautiful pink desktop music player",
   "main": "main.js",
   "scripts": {
