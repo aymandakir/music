@@ -81,6 +81,11 @@ button, .heart-btn, #progress-bar, #menu-btn, #prev, #next, #play-pause, #close-
   justify-content: center;
   cursor: pointer;
   transition: all var(--transition);
+  pointer-events: auto !important;
+}
+
+#menu-btn, #menu-close-btn {
+  pointer-events: auto !important;
 }
 
 #minimize-btn:hover, #close-btn:hover { background: rgba(255,255,255,0.85); color: var(--accent-dark); }
