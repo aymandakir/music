@@ -19,6 +19,7 @@ function createWindow() {
   });
 
   win.loadFile('index.html');
+  win.webContents.openDevTools();
 
   ipcMain.on('close-app', () => {
     win.close();
