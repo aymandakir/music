@@ -2,3 +2,8 @@ node_modules
 dist/
 songs/
 assets/covers/
+
+# Music files
+songs/
+*.mp3
+assets/covers/
