@@ -53,7 +53,7 @@ body {
   flex-shrink: 0;
 }
 
-button, .heart-btn, #progress-bar, #menu-btn, #prev, #next, #play-pause, #close-btn, #minimize-btn, #menu-close-btn {
+button, .heart-btn, #progress-bar, #menu-btn, #prev, #next, #play-pause, #close-btn, #minimize-btn, #menu-close-btn, #window-controls {
   -webkit-app-region: no-drag;
 }
 
