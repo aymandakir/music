@@ -4,11 +4,13 @@
 
 ![Music Player](assets/covers/submarine.jpg)
 
+> ⚠️ **Note:** This is an **Electron desktop application**. It cannot be deployed on Vercel or other web hosting platforms. Vercel only hosts web applications (Next.js, React, etc.), not desktop apps. This project must be run locally or packaged for distribution.
+
 ## ✨ Features
 
 - **🎨 Stunning Pink Theme** - Soft, elegant pink gradients and glass-morphism effects
 - **💫 Smooth Animations** - Floating decorations, sparkle effects, and buttery transitions
-- **🎵 49 Songs Included** - Pre-loaded with albums from The Marías, Mitski, and The Smiths
+- **🎵 49 Songs Included** - Pre-loaded with albums from The Marías, Mitski, and The Smiths (streaming from Cloudflare R2 CDN)
 - **📋 Queue System** - Filter by artist, see song durations, click to play
 - **❤️ Favorites** - Heart buttons to mark your favorite moments
 - **🪟 Desktop Widget** - Floating, always-accessible player
@@ -61,28 +63,15 @@ npm run build:all
 - **Equalizer Animation** - Visual audio bars for playing song
 - **Marquee Title** - Long titles scroll smoothly
 
-## 📁 Adding Your Own Songs
+## 🎵 Music Source
 
-1. Add MP3 files to `songs/` folder
-2. Add cover images (JPG) to `assets/covers/`
-3. Update `music-player.js` songs array:
-
-```javascript
-const songs = [
-  { 
-    title: "Song Name", 
-    artist: "Artist Name", 
-    file: "songs/your-song.mp3", 
-    cover: "assets/covers/your-cover.jpg" 
-  },
-];
-```
+Music is streamed from Cloudflare R2 CDN. No local audio files required.
 
 ## 🛠️ Tech Stack
 
 - **Electron** - Desktop app framework
 - **HTML/CSS/JS** - Frontend
-- **Jimp** - Icon generation
+- **Cloudflare R2** - Audio streaming CDN
 - **electron-builder** - Packaging & distribution
 
 ## 📝 License
@@ -91,7 +80,7 @@ MIT License - Feel free to use, modify, and share!
 
 ## 🙏 Credits
 
-Songs included (for demonstration):
+Songs included (for demonstration, streamed from CDN):
 - **The Marías** - Submarine album
 - **Mitski** - Laurel Hell album  
 - **The Smiths** - Louder Than Bombs album
